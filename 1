@@ -1,0 +1,15 @@
+import numpy as np
+arr=np.array([[1,2,3],[4,2,5]])
+print("The array is of type ",type(arr))
+print("The array is of shape ",arr.shape)
+print("Array stores elements of type: ", arr.dtype)
+for x in np.nditer(arr):
+    print(x)
+b=np.zeros((3,4))
+print(b)
+c=np.array([i for i in range(0,31,5)])
+print(c)
+b.reshape((2,2,3))
+print(arr.flatten())
+print(arr[0:2,0:2])
+
